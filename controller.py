@@ -6,7 +6,7 @@ import datetime
 def view_notes(my_list):
     print()
     if my_list:
-        print('id' + '\t' + 'name' + '\t' + 'description')
+        print('id' + '\t' + 'name')
         for row in my_list:
             for i in row:
                 print(i, end='\t')
